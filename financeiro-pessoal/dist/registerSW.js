@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/financeiro-pessoal/sw.js', { scope: '/financeiro-pessoal/' })})}
